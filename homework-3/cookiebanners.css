@@ -107,7 +107,7 @@
     margin: 24px 0px;
     width: 560px;
     height: 72px;
-    margin: 72px 0px;
+    margin: 72px 0px 24px 0px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -131,6 +131,7 @@
 
 .banner-3link{
     color: #EA4C89;
+    text-decoration: none;
 }
 
 .banner-3button-1{
@@ -169,4 +170,49 @@
     font-size: 12px;
     font-family: 'Inter', sans-serif;
     color: #FFFFFF;
+}
+
+.banner-4{
+    background: #26262B;
+    border-radius: 10px;
+    width: 560px;
+    height: 64px;
+    padding: 12px 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-4text-1{
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20px;
+    margin: 0px 10px;
+}
+
+.banner-4link{
+    color: #e6842e;
+    text-decoration: none;
+}
+
+.banner-4button{
+    width: 49px;
+    height: 28px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    border: 0px;
+    padding: 4px 10px;
+    margin: 0px 10px;
+}
+
+.banner-4text-2{
+    width: 29px;
+    height: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: normal;
+    font-size: 12px;
+    color: #26262B;
 }
