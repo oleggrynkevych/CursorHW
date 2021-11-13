@@ -59,3 +59,38 @@
     font-weight: 600;
     font-size: 12px;
 }
+
+.banner-2{
+    background: #2B2627;
+    width: 1440px;
+    height: 52px;
+    position: relative;
+    margin: 24px 0px;
+}
+
+.banner-2img-1{
+    width: 16px;
+    height: 16px;
+    left: 310px;
+    top: 20px;
+    position: absolute;
+}
+
+.banner-2text{
+    color: #FFFFFF;
+    width: 689px;
+    height: 20px;
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    left: 340px;
+    top: 20px;
+    position: absolute;
+}
+
+.banner-2img-2{
+    width: 16px;
+    height: 16px;
+    left: 1050px;
+    top: 20px;
+    position: absolute;
+}
