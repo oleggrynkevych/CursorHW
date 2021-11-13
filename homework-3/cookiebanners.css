@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@402&display=swap');
 
+.maincontainer{
+    background: #E5E5E5;
+    width: 1488px;
+    height: 1430px;
+    padding: 228px 24px 212px 24px;
+}
 
 .banner-1{
     background-color: #0B2239;
@@ -93,4 +99,74 @@
     left: 1050px;
     top: 20px;
     position: absolute;
+}
+
+.banner-3{
+    background: #FFFFFF;
+    border-radius: 16px;
+    margin: 24px 0px;
+    width: 560px;
+    height: 72px;
+    margin: 72px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-3img{
+    width: 36px;
+    height: 36px;
+    padding: 8px;
+    margin: 0px 10px;
+}
+.banner-3text-1{
+    color: #0D0C22;
+    width: 347px;
+    height: 40px;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.banner-3link{
+    color: #EA4C89;
+}
+
+.banner-3button-1{
+    background: rgba(13, 12, 34, 0.05);
+    border-radius: 8px;
+    width: 63px;
+    height: 28px;
+    border: 0;
+    padding: 4px 10px;
+    margin: 0px 0px 0px 5px;
+}
+
+.banner-3text-2{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    color: #0D0C22;
+    width: 43px;
+    height: 20px;
+}
+
+.banner-3button-2{
+    background: #EA4C89;
+    border-radius: 8px;
+    width: 52px;
+    height: 28px;
+    border: 0px;
+    padding: 4px 10px;
+    margin: 0px 10px;
+}
+
+.banner-3text-3{
+    width: 32px;
+    height: 20px;
+    font-weight: 500;
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+    color: #FFFFFF;
 }
