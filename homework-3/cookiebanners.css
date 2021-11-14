@@ -344,6 +344,12 @@
     margin: 0px 8px;
 }
 
+.globalunit-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
 .banner-7{
     width: 320px;
     height: 260px;
@@ -390,4 +396,53 @@
     font-weight: bold;
     font-size: 16px;
     font-family: 'Inter', sans-serif;
+}
+.banner-8{
+    width: 320px;
+    height: 137px;
+    background: #FFFFFF;
+    box-shadow: 0px 8px 32px rgba(10, 3, 89, 0.1);
+    border-radius: 4px;
+    margin: 0px 40px;
+    padding: 16px;
+    position: relative;
+}
+
+.banner-8text-1{
+    width: 288px;
+    height: 60px;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+    margin: 12px 0px;
+}
+
+.banner-8text-2{
+    width: 95px;
+    height: 17px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #6666FF;
+    position: absolute;
+    bottom: 40px;
+}
+
+.banner-8button{
+    width: 64px;
+    height: 33px;
+    background: #6666FF;
+    border-radius: 4px;
+    border: 0px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+    color: white;
+    position: absolute;
+    right: 40px;
+    bottom: 32px;
 }
