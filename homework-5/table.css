@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+
+
+
+.bodytable{
+    background: #2C2C2C;
+    padding: 50px;
+}
+
+.table-1{
+    border-radius: 8px;
+    border: 1px;
+    border-color: #454545;
+    background: #2F2F2F;
+    border-style: solid;
+
+}
+
+.table-1name{
+    width: 45%;
+}
+
+.table-1 thead{
+    color: white;
+    font-weight: 400;
+}
+
+td{
+    padding: 10px 15px;
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: 200;
+    color: white;
+    border: none;
+}
+
+th{
+    padding: 10px 15px;
+    text-align: left;
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: 400;
+    border-bottom: 1px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-color: #454545;
+    border-style: solid;
+}
+
+.table-1icon{
+    text-align: right;
+}
+
+.table-1date{
+    color: #777777;
+}
+
+.table-1border-1{
+    color: #777777;
+    border-bottom: 1px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-color: #454545;
+    border-style: solid;
+}
+
+.table-1border{
+    border-bottom: 1px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-color: #454545;
+    border-style: solid;
+}
+
+.table-1border-2{
+    border-bottom: 1px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-color: #454545;
+    border-style: solid;
+    text-align: right;
+}
