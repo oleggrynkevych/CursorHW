@@ -187,8 +187,15 @@ th{
     border-right: 0px;
     border-color: #454545;
     border-style: solid;
-    position: relative;
 }
+
+.container{
+    position: relative;
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
 
 .table-2input{
     position: absolute;
@@ -197,8 +204,7 @@ th{
 }
 
 .table-2label{
-    
-    padding-left: 20px;
+    padding-left: 30px;
     cursor: pointer;
     display: inline-block;
 }
@@ -206,16 +212,16 @@ th{
 .table-2label:before {
     content: "";
     display: block;
-    width: 20px;
-    height: 20px;
+    width: 15px;
+    height: 15px;
     border: 1px solid #878787;
     background-color: #3B3B3B;
     border-radius: 3px;
 
 
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 2px;
+    left: 4px;
     z-index: 1;
     display: block;
 
@@ -226,16 +232,16 @@ th{
 .table-2label:after{
     content: ""; 
     
-    width: 12px;
-    height: 12px;
+    width: 9px;
+    height: 9px;
 
     background: url("icon20.svg") no-repeat;
-    background-size: 12px 12px;
+    background-size: 9px 9px;
     opacity: 0;
 
     position: absolute;
-    top: 5px;
-    left: 5px;
+    top: 6px;
+    left: 8px;
     z-index: 2;
 
     transition: opacity .1s linear;
@@ -250,6 +256,19 @@ th{
 .table-2input:checked + .table-2label:after{
     opacity: 1;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
