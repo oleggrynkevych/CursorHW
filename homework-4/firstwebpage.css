@@ -2,6 +2,7 @@
 
 .webpagebody{
     margin: 0;
+    width: 1440px;
 }
 
 .webpage{
@@ -91,7 +92,7 @@
     background: #FFFFFF;
     display: flex;
     justify-content: space-between;
-    margin: 100px 80px;
+    margin: 100px 80px; 
     padding: 0px 70px;
     max-width: 100%;
     height: auto;
