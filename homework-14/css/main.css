@@ -1,3 +1,63 @@
+.bg-adv1 {
+    width: 55px; 
+    height: 60px;
+    background: url('../img/css_sprites.png') -0 -298px;
+}
+
+.bg-adv2 {
+    width: 55px; 
+    height: 60px;
+    background: url('../img/css_sprites.png') -0 -238px;
+}
+
+.bg-adv3 {
+    width: 60px; 
+    height: 54px;
+    margin-bottom: 6px;
+    background: url('../img/css_sprites.png') -0 -127px;
+}
+
+.adv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bg-reason1 {
+    width: 55px; 
+    height: 34px;
+    margin-left: 35%;
+    margin-top: 13px;
+    margin-bottom: 30px;
+    background: url('../img/css_sprites.png') -0 -0;
+}
+
+.bg-reason2 {
+    width: 45px; 
+    height: 45px;
+    margin-left: 38%;
+    margin-bottom: 23px;
+    margin-top: 9px;
+    background: url('../img/css_sprites.png') -0 -34px;
+}
+
+.bg-reason3 {
+    width: 39px; 
+    height: 57px;
+    margin-left: 39%;
+    margin-bottom: 20px;
+    background: url('../img/css_sprites.png') -0 -181px;
+}
+
+.bg-reason4 {
+    width: 48px; 
+    height: 48px;
+    margin-left: 37%;
+    margin-bottom: 20px;
+    margin-top: 9px;
+    background: url('../img/css_sprites.png') -0 -79px;
+}
+
 img {
     width: auto;
     height: auto;
@@ -170,7 +230,7 @@ button {
 .main-screen {
     min-height: 1px;
     height: 700px;
-    background-image: url("../img/main-screen-bg.jpg");
+    background-image: url("../img/main-screen-bg.webp");
     background-position: 50%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -354,11 +414,11 @@ button {
     margin: 0 auto;
 }
 
-.reasons .reason .square img.width60 {
+.reasons .reason .square {
     width: 60px;
 }
 
-.reasons .reason .square img.width35 {
+.reasons .reason .square {
     width: 35px;
 }
 
